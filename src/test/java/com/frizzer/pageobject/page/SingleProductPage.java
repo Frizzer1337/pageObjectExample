@@ -12,30 +12,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
 
-public class SingleProductPage {
-
-    private WebDriver driver;
-
-    private PageService service = new PageService();
-    private WebDriverWait wait;
-
-    public SingleProductPage(WebDriver driver){
-        this.driver = driver;
-        PageFactory.initElements(driver,this);
-        wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-    }
-
+public class SingleProductPage extends AbstractPage {
     @FindBy(className = "product-form__submit")
     WebElement addToCartButton;
 
-    @FindBy(className = "header__icon--cart")
-    WebElement cart;
-
-    @FindBy(className = "cart-item")
-    List<WebElement> cartItem;
-
-    public WebElement findAddToCartButton(){
-        return addToCartButton;
+    public SingleProductPage(WebDriver driver) {
+        super(driver);
     }
 
     public SingleProductPage addToCart(){
@@ -45,11 +27,6 @@ public class SingleProductPage {
         return this;
     }
 
-    public SingleProductPage openCart(){
-        wait.until(ExpectedConditions.elementToBeClickable(cart));
-        cart.click();
-        return this;
-    }
 
 
 

@@ -1,38 +1,18 @@
 package com.frizzer.pageobject.model;
 
-import java.util.Objects;
-
 public class VaporessoProduct {
-  private double regularPrice;
-  private double salePrice = -1;
+  private double currentPrice;
   private String name;
   private String link;
 
-  public VaporessoProduct(double regularPrice, double salePrice, String name, String link) {
-    this.regularPrice = regularPrice;
-    this.salePrice = salePrice;
+  public VaporessoProduct(double currentPrice, String name, String link) {
+    this.currentPrice = currentPrice;
     this.name = name;
     this.link = link;
   }
 
-  public double getPrice(){
-    return salePrice > 0 ? salePrice : regularPrice;
-  }
-
-  public double getRegularPrice() {
-    return regularPrice;
-  }
-
-  public void setRegularPrice(double regularPrice) {
-    this.regularPrice = regularPrice;
-  }
-
-  public double getSalePrice() {
-    return salePrice;
-  }
-
-  public void setSalePrice(double salePrice) {
-    this.salePrice = salePrice;
+  public double getCurrentPrice(){
+    return currentPrice;
   }
 
   public String getName() {
@@ -62,10 +42,7 @@ public class VaporessoProduct {
 
     VaporessoProduct that = (VaporessoProduct) o;
 
-    if (Double.compare(that.regularPrice, regularPrice) != 0) {
-      return false;
-    }
-    if (Double.compare(that.salePrice, salePrice) != 0) {
+    if (Double.compare(that.currentPrice, currentPrice) != 0) {
       return false;
     }
     if (!name.equals(that.name)) {
@@ -78,9 +55,8 @@ public class VaporessoProduct {
   public int hashCode() {
     int result;
     long temp;
-    temp = Double.doubleToLongBits(regularPrice);
+    temp = Double.doubleToLongBits(currentPrice);
     result = (int) (temp ^ (temp >>> 32));
-    temp = Double.doubleToLongBits(salePrice);
     result = 31 * result + (int) (temp ^ (temp >>> 32));
     result = 31 * result + name.hashCode();
     result = 31 * result + link.hashCode();
@@ -90,8 +66,7 @@ public class VaporessoProduct {
   @Override
   public String toString() {
     return "VaporessoProduct{" +
-        "regularPrice=" + regularPrice +
-        ", salePrice=" + salePrice +
+        "currentPrice=" + currentPrice +
         ", name='" + name + '\'' +
         ", link='" + link + '\'' +
         '}';

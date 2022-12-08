@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
   <test verbose="2" preserve-order="true"
-    name="C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java">
+    name="C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl">
     <classes>
       <class name="com.frizzer.pageobject.test.impl.AlphabetAZFilterTest">
         <methods>
@@ -17,6 +17,11 @@
       <class name="com.frizzer.pageobject.test.impl.AscendingFilterTest">
         <methods>
           <include name="testSortAscendingByPrice"/>
+        </methods>
+      </class>
+      <class name="com.frizzer.pageobject.test.impl.BarrSearchTest">
+        <methods>
+          <include name="testBarrSearch"/>
         </methods>
       </class>
       <class name="com.frizzer.pageobject.test.impl.CartAddSingleItem">
