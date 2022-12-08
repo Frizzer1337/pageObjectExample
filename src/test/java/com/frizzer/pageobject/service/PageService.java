@@ -5,11 +5,11 @@ import org.openqa.selenium.WebElement;
 public class PageService {
 
     public Double priceToDouble(WebElement price){
-        return Double.valueOf(price.getText().replaceAll("[^\\d.]", ""));
+        return notBlank(price) ? Double.parseDouble(price.getText().replaceAll("[^\\d.]", "")) : -1;
     }
 
     public boolean notBlank(WebElement element){
-        return !element.getText().isBlank();
+        return element!=null && !element.getText().isEmpty();
     }
 
 }

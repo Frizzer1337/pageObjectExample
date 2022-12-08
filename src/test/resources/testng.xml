@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+  <test verbose="2" preserve-order="true"
+    name="C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java">
+    <classes>
+      <class name="com.frizzer.pageobject.test.impl.AlphabetAZFilterTest">
+        <methods>
+          <include name="testSortAscendingByAlphabetAZ"/>
+        </methods>
+      </class>
+      <class name="com.frizzer.pageobject.test.impl.AlphabetZAFilterTest">
+        <methods>
+          <include name="testSortAscendingByAlphabetAZ"/>
+        </methods>
+      </class>
+      <class name="com.frizzer.pageobject.test.impl.AscendingFilterTest">
+        <methods>
+          <include name="testSortAscendingByPrice"/>
+        </methods>
+      </class>
+      <class name="com.frizzer.pageobject.test.impl.CartAddSingleItem">
+        <methods>
+          <include name="testAddSingleItemToCart"/>
+        </methods>
+      </class>
+      <class name="com.frizzer.pageobject.test.impl.CartTest">
+        <methods>
+          <include name="testCartByAddingMultipleElements"/>
+        </methods>
+      </class>
+      <class name="com.frizzer.pageobject.test.impl.DescendingFilterTest">
+        <methods>
+          <include name="testSortDescendingByPrice"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
