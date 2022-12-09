@@ -21,7 +21,6 @@ public class AscendingFilterTest extends CommonTest {
         .filter(x->x>0)
         .collect(
             Collectors.toList());
-    System.out.println(prices);
     assertThat(prices,is(equalTo(prices.stream().sorted().collect(Collectors.toList()))));
   }
 
