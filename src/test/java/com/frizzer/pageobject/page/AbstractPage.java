@@ -16,7 +16,6 @@ public class AbstractPage{
     this.driver = driver;
     wait = new WebDriverWait(driver, Duration.ofSeconds(20));
     PageFactory.initElements(driver, this);
-    System.out.println("I was created by " + Thread.currentThread().getName());
   }
 
 }

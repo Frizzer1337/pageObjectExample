@@ -35,7 +35,6 @@ public class DriverManager {
       logger.error("Error while reading driver properties");
       throw new RuntimeException(e);
     }
-    System.out.println("Current thread " + Thread.currentThread().getName());
     while (webDriver == null) {
       if (isCreated.compareAndSet(false, true)) {
         switch (properties.getProperty("browser")) {
