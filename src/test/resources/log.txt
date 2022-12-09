@@ -264,3 +264,86 @@
 23:49:30.534 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
 23:50:44.565 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
 23:51:26.788 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartAddSingleItem failed
+21:41:41.786 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+21:42:00.944 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+21:43:22.294 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+21:43:37.485 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+21:45:43.559 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+21:45:50.390 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+21:46:41.643 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+21:46:48.684 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+21:47:07.478 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+21:47:24.031 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+21:47:37.415 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+21:47:44.575 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+21:47:51.544 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+21:48:21.206 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+21:49:46.116 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+21:49:53.354 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+21:50:00.700 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+21:52:02.077 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+21:52:15.595 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+21:53:58.426 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+21:54:16.817 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+21:54:34.425 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+21:54:49.891 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+21:56:18.890 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+21:56:31.938 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+21:57:25.665 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+21:57:41.070 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+22:00:52.866 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:01:06.126 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+22:03:34.980 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:03:49.300 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+22:03:57.078 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:05:40.119 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:05:57.952 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+22:07:03.659 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:07:18.651 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+22:07:57.265 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:08:12.599 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+22:08:57.546 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:09:04.471 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+22:09:17.392 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:09:30.515 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+22:09:58.207 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:10:12.210 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+22:11:22.133 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:11:36.489 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+22:12:23.026 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:12:30.470 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+22:12:55.190 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:13:06.643 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+22:13:39.720 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:13:52.243 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+22:14:40.394 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:15:25.550 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:15:43.412 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:16:18.087 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartAddSingleItem failed
+22:17:18.114 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartAddSingleItem failed
+22:21:00.405 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:21:38.747 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+22:24:17.603 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:24:25.981 [main] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+22:24:50.714 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartAddSingleItem failed
+22:24:57.959 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+22:25:39.977 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+22:25:58.611 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:26:38.792 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartAddSingleItem failed
+22:26:46.660 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartDeleteSingleItem failed
+22:30:38.762 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:38:25.158 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:38:33.386 [main] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+22:39:43.123 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:40:14.404 [main] WARN   - Test com.frizzer.pageobject.test.impl.CurrencyChangeTest failed
+22:40:40.062 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:40:45.085 [main] WARN   - Test com.frizzer.pageobject.test.impl.CurrencyChangeTest failed
+22:40:52.180 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:40:55.067 [main] WARN   - Test com.frizzer.pageobject.test.impl.CurrencyChangeTest failed
+22:41:28.027 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:41:33.110 [main] WARN   - Test com.frizzer.pageobject.test.impl.CurrencyChangeTest failed
+22:42:06.911 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:43:32.218 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:43:56.806 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:46:17.064 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+22:46:23.755 [main] WARN   - Test com.frizzer.pageobject.test.impl.CurrencyChangeTest failed

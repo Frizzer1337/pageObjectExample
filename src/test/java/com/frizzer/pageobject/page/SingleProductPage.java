@@ -16,6 +16,9 @@ public class SingleProductPage extends AbstractPage {
     @FindBy(className = "product-form__submit")
     WebElement addToCartButton;
 
+    @FindBy(className = "button--tertiary")
+    WebElement deleteButton;
+
     public SingleProductPage(WebDriver driver) {
         super(driver);
     }
@@ -25,6 +28,18 @@ public class SingleProductPage extends AbstractPage {
         addToCartButton.click();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.className("cart-item")));
         return this;
+    }
+
+    public SingleProductPage deleteFromCart(){
+        wait.until(ExpectedConditions.elementToBeClickable(By.className("button--tertiary")));
+        deleteButton.click();
+        return this;
+    }
+
+    public String checkEmptyCart(){
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.className("cart__empty-text")));
+        String cartText = driver.findElement(By.className("cart__empty-text")).getText();
+        return cartText;
     }
 
 

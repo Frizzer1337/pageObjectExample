@@ -14,11 +14,10 @@ import org.testng.annotations.Test;
 public class AlphabetZAFilterTest extends CommonTest {
 
   @Test
-  public void testSortAscendingByAlphabetAZ() {
+  public void testSortAscendingByAlphabetZA() {
     driver.get("https://store.vaporesso.com/collections/collections?sort_by=title-descending");
     ProductPage productPage = new ProductPage(driver);
     List<String> names = productPage.findVapes().stream().map(x -> x.getName().toLowerCase())
-        .filter(x->!x.isEmpty())
         .collect(Collectors.toList());
     assertThat(names, is(equalTo(names.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList()))));
 

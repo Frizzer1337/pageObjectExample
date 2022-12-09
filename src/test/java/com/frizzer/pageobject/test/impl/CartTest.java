@@ -16,7 +16,7 @@ public class CartTest extends CommonTest {
     @Test
     public void testCartByAddingMultipleElements(){
         driver.get("https://store.vaporesso.com/collections/collections");
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 2; i++) {
             ProductPage productPage = new ProductPage(driver);
             driver.get(productPage.findVapes().get(i).getLink());
             SingleProductPage singleProductPage = new SingleProductPage(driver).addToCart();
@@ -24,7 +24,7 @@ public class CartTest extends CommonTest {
         }
         driver.get("https://store.vaporesso.com/collections/collections");
         ProductPage productPage = new ProductPage(driver).openCart();
-        Assert.assertEquals(productPage.countItemsInCart(),5);
+        Assert.assertEquals(productPage.countItemsInCart(),2);
 
     }
 

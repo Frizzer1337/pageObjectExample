@@ -9,8 +9,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 
 public class ProductPage extends AbstractPage {
+
+  @FindBy(className = "transcy-switcher-manual")
+  WebElement currencySwitch;
 
   @FindBy(className = "full-unstyled-link")
   List<WebElement> productLinks;
@@ -20,18 +24,39 @@ public class ProductPage extends AbstractPage {
   @FindBy(className = "cart-item")
   List<WebElement> cartItem;
 
+  @FindBy(className = "button--tertiary")
+  WebElement deleteButton;
+
   public ProductPage(WebDriver driver) {
     super(driver);
   }
+
+  public ProductPage openCurrencySwitch(){
+    wait.until(ExpectedConditions.elementToBeClickable(currencySwitch));
+    Select select = new Select(currencySwitch.findElement(By.className("transcy-select__field")));
+    return this;
+  }
+
+
 
   public String getNameFirstItemInCart(){
     String itemName = driver.findElement(By.className("cart-item__name")).getText();
     return itemName;
   }
 
+  public String checkEmptyCart(){
+    String cartText = driver.findElement(By.className("cart__empty-text")).getText();
+    return cartText;
+  }
+
   public ProductPage openCart() {
     wait.until(ExpectedConditions.elementToBeClickable(cart));
     cart.click();
+    return this;
+  }
+
+  public ProductPage deleteItem(){
+    deleteButton.click();
     return this;
   }
 

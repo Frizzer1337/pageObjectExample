@@ -1,0 +1,206 @@
+01:53:07.110 [main] ERROR com.frizzer.pageobject.driver.DriverManager - Error while reading driver properties
+01:53:29.117 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+01:53:30.822 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+02:06:31.334 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:07:02.162 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:07:18.054 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:07:40.703 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:08:18.149 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:12:17.508 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:12:50.436 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:14:01.420 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:15:40.753 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:18:17.651 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:18:21.983 [main] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+02:19:31.350 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:19:34.586 [main] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+02:21:38.462 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:23:47.607 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:23:50.838 [main] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+02:24:31.616 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:24:34.206 [main] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+02:26:09.771 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:30:00.264 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:32:13.601 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:34:20.445 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:34:56.154 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:36:08.023 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:37:44.505 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:38:10.274 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:38:40.641 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:41:07.383 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:41:27.161 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:41:56.641 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:43:38.069 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:48:07.188 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:48:31.802 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:49:00.301 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:50:21.590 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:53:07.967 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:53:45.022 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:54:26.369 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:54:47.894 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:55:42.691 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:56:52.748 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:58:05.226 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+02:59:07.784 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:00:17.504 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:00:24.357 [main] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:01:16.523 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:02:01.088 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:02:28.313 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:07:06.308 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:07:11.605 [main] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:07:42.286 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:07:47.844 [main] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:09:05.246 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:09:11.988 [main] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:10:07.746 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:10:13.238 [main] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:11:34.663 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:14:05.883 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:19:58.675 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:20:17.622 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:20:17.646 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test-3] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:20:17.646 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:20:20.091 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:20:58.739 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:20:58.762 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test-3] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:20:58.762 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:21:01.713 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:22:18.056 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:22:18.079 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test-3] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:22:18.079 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:22:20.420 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:24:44.551 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:24:44.580 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:24:44.580 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test-3] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:24:53.422 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:26:58.355 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:26:58.384 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:26:58.384 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test-3] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:27:05.709 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:27:47.848 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:27:55.444 [main] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:29:50.348 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:29:58.412 [main] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:30:30.680 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:30:44.226 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:31:02.342 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:31:02.368 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test-3] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:31:02.368 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:31:30.910 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:31:49.118 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:33:56.317 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:34:04.457 [main] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:34:04.460 [main] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:34:04.461 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:34:13.096 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:34:19.772 [main] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:34:19.776 [main] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:34:19.778 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:34:32.398 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:34:39.131 [main] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:34:39.134 [main] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:34:39.136 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:35:10.104 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:35:15.803 [main] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:35:15.805 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:37:02.527 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:37:08.384 [main] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:37:08.387 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:37:38.370 [main] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:37:38.375 [main] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:37:38.377 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:37:56.440 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:38:04.492 [main] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:38:04.496 [main] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:38:04.497 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:38:15.613 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:38:21.813 [main] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:38:21.813 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:39:48.800 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:39:54.745 [main] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:39:54.747 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:41:13.856 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:41:19.928 [main] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:41:19.930 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:42:24.733 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:42:33.162 [main] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:42:33.165 [main] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:42:33.167 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:43:23.392 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:43:30.350 [main] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:43:30.353 [main] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:43:30.354 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:46:02.313 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:46:02.340 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:46:02.341 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-3] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:46:10.708 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:49:47.377 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:49:56.867 [TestNG-tests-1] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:49:56.869 [TestNG-tests-1] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:50:29.809 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:50:29.839 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:50:29.840 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-3] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:50:37.659 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:51:16.098 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:51:16.098 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:51:17.368 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-3] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:51:57.895 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:51:57.895 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:51:59.160 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-3] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:53:48.888 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-3] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:53:48.888 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:53:50.161 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:54:40.271 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:54:40.271 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:54:41.548 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-3] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:55:02.731 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:55:02.731 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:55:04.126 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-3] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:56:15.008 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-3] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:56:23.534 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:56:23.535 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:56:23.616 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-3] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:57:34.000 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:57:42.286 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:57:42.288 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:57:42.388 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-3] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:58:02.790 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+03:58:13.438 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+03:58:13.439 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+03:58:13.523 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-3] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+03:59:28.474 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+04:03:43.894 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-3] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+04:03:45.471 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+04:06:29.494 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+04:06:30.226 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+04:08:15.723 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+04:08:16.851 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+04:09:32.497 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+04:09:32.737 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+04:10:25.433 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+04:10:25.844 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+04:11:06.111 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+04:11:07.499 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+04:14:12.541 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+04:14:48.957 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+04:17:24.727 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-3] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+04:18:58.701 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+04:19:41.243 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+04:19:42.638 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+04:21:20.883 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-3] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+04:21:21.509 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+04:21:23.447 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+04:22:00.067 [main] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+04:24:34.808 [main] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+04:24:36.608 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+04:24:54.669 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+04:24:54.741 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+04:25:12.837 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-3] WARN   - Test com.frizzer.pageobject.test.impl.CartTest failed
+04:28:22.581 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+04:29:03.562 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+04:29:04.399 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
+04:30:14.989 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-2] WARN   - Test com.frizzer.pageobject.test.impl.AscendingFilterTest failed
+17:48:41.599 [TestNG-test=C:/Users/GIGABYTE/IdeaProjects/PageObjectTesting/src/test/java/com/frizzer/pageobject/test/impl-1] WARN   - Test com.frizzer.pageobject.test.impl.AlphabetAZFilterTest failed
