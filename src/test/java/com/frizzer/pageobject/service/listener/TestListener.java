@@ -20,6 +20,11 @@ public class TestListener implements ITestListener {
   private Logger log = LogManager.getRootLogger();
 
   @Override
+  public void onTestStart(ITestResult result){
+    log.info(result.getTestClass().getName() + " started");
+  }
+
+  @Override
   public void onTestFailure(ITestResult result) {
       log.warn("Test " + result.getTestClass().getName() + " failed");
     Calendar calendar = Calendar.getInstance();

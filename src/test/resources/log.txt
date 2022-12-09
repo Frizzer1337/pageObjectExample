@@ -349,3 +349,6 @@
 22:46:23.755 [main] WARN   - Test com.frizzer.pageobject.test.impl.CurrencyChangeTest failed
 23:16:52.447 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
 23:17:05.931 [main] WARN   - Test com.frizzer.pageobject.test.impl.CurrencyChangeTest failed
+23:31:01.789 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+23:31:01.796 [main] INFO   - [TestClass name=class com.frizzer.pageobject.test.impl.CurrencyChangeTest]started
+23:31:14.158 [main] WARN   - Test com.frizzer.pageobject.test.impl.CurrencyChangeTest failed
