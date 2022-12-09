@@ -13,8 +13,8 @@ public class CurrencyChangeTest extends CommonTest {
 
   @Test
   public void testCurrencySwitch() throws InterruptedException {
-    driver.get("https://store.vaporesso.com/collections/collections");
-    ProductPage productPage = new ProductPage(driver).openCurrencySwitch();
+//    driver.get("https://store.vaporesso.com/collections/collections");
+//    ProductPage productPage = new ProductPage(driver).openCurrencySwitch();
 
 
   }
