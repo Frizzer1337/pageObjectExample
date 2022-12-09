@@ -18,7 +18,6 @@ public class AscendingFilterTest extends CommonTest {
     driver.get("https://store.vaporesso.com/collections/collections?sort_by=price-ascending");
     ProductPage productPage = new ProductPage(driver);
     List<Double> prices = productPage.findVapes().stream().map(VaporessoProduct::getCurrentPrice)
-        .filter(x->x>0)
         .collect(
             Collectors.toList());
     assertThat(prices,is(equalTo(prices.stream().sorted().collect(Collectors.toList()))));
