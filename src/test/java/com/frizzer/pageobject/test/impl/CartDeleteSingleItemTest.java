@@ -11,7 +11,7 @@ import com.frizzer.pageobject.page.SingleProductPage;
 import com.frizzer.pageobject.test.CommonTest;
 import org.testng.annotations.Test;
 
-public class CartDeleteSingleItem extends CommonTest {
+public class CartDeleteSingleItemTest extends CommonTest {
 
   @Test
   public void testDeleteSingleItemFromCart() {

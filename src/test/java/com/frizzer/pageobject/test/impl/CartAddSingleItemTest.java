@@ -11,7 +11,7 @@ import com.frizzer.pageobject.test.CommonTest;
 import org.testng.annotations.Test;
 
 
-public class CartAddSingleItem extends CommonTest {
+public class CartAddSingleItemTest extends CommonTest {
 
   @Test
   public void testAddSingleItemToCart() {
