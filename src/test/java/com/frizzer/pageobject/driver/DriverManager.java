@@ -44,20 +44,8 @@ public class DriverManager {
             break;
           }
           default: {
-            String username = "mamasdsa71";
-            String accessKey = "nMA3zQMWrsBMbZiqS3BtQt9ymHcd00GhRAj61sfZLOEJsSnGnq";
-            DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.setCapability("browserName", "Chrome");
-            capabilities.setCapability("version", "92.0");
-            capabilities.setCapability("platform", "Windows 10");
-            capabilities.setCapability("resolution","1920x1080");
-            capabilities.setCapability("build", "First Test");
-            capabilities.setCapability("name", "Sample Test");
-            capabilities.setCapability("network", true); // To enable network logs
-            capabilities.setCapability("visual", true); // To enable step by step screenshot
-            capabilities.setCapability("video", true); // To enable video recording
-            capabilities.setCapability("console", true); // To capture console logs
-            webDriver = new RemoteWebDriver(new URL("https://" + username + ":" + accessKey + "@hub.lambdatest.com/wd/hub"), capabilities);
+            webDriver = new ChromeDriver();
+            WebDriverManager.chromedriver().setup();
             break;
           }
         }
