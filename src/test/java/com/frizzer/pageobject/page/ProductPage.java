@@ -65,6 +65,7 @@ public class ProductPage extends AbstractPage {
   }
 
   public List<WebElement> findProductLinks() {
+    wait.until(ExpectedConditions.presenceOfElementLocated(By.className("card__information")));
     return productLinks.stream().filter(x -> service.notBlank(x)).collect(Collectors.toList());
   }
 
@@ -86,6 +87,23 @@ public class ProductPage extends AbstractPage {
 
     }
     return vapeList;
+  }
+
+  public VaporessoProduct findVape() {
+      WebElement link = findProductLinks().get(0);
+      String productLink = link.getAttribute("href");
+      String name = link.getText();
+      double currentPrice = service.priceToDouble(link.findElement(By.xpath("./.."))
+          .findElement(By.xpath("./.."))
+          .findElement(By.className("price-item--sale")));
+      if (currentPrice == -1) {
+        currentPrice = service.priceToDouble(link.findElement(By.xpath("./.."))
+            .findElement(By.xpath("./.."))
+            .findElement(By.className("price__regular")));
+      }
+     return new VaporessoProduct(currentPrice, name, productLink);
+
+
   }
 
 

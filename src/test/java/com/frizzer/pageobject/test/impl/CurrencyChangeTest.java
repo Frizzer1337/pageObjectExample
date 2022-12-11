@@ -7,6 +7,8 @@ import com.frizzer.pageobject.model.VaporessoProduct;
 import com.frizzer.pageobject.page.ProductPage;
 import com.frizzer.pageobject.page.SingleProductPage;
 import com.frizzer.pageobject.test.CommonTest;
+import java.util.HashMap;
+import java.util.HashSet;
 import org.testng.annotations.Test;
 
 public class CurrencyChangeTest extends CommonTest {

@@ -17,7 +17,7 @@ public class CartDeleteSingleItemTest extends CommonTest {
   public void testDeleteSingleItemFromCart() {
     driver.get("https://store.vaporesso.com/collections/collections");
     ProductPage productPage = new ProductPage(driver);
-    VaporessoProduct firstProduct = productPage.findVapes().get(0);
+    VaporessoProduct firstProduct = productPage.findVape();
     driver.get(firstProduct.getLink());
     String emptyCartText = new SingleProductPage(driver).addToCart().deleteFromCart().checkEmptyCart();
     assertThat(emptyCartText,equalTo("Your cart is empty"));

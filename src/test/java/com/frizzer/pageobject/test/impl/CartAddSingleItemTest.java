@@ -17,7 +17,7 @@ public class CartAddSingleItemTest extends CommonTest {
   public void testAddSingleItemToCart() {
     driver.get("https://store.vaporesso.com/collections/collections");
     ProductPage productPage = new ProductPage(driver);
-    VaporessoProduct firstProduct = productPage.findVapes().get(0);
+    VaporessoProduct firstProduct = productPage.findVape();
     driver.get(firstProduct.getLink());
     SingleProductPage singleProductPage = new SingleProductPage(driver).addToCart();
     driver.get("https://store.vaporesso.com/collections/collections");
