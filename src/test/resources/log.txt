@@ -403,3 +403,13 @@
 20:54:20.772 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
 20:54:20.778 [main] INFO   - com.frizzer.pageobject.test.impl.CartDeleteSingleItemTest started
 22:56:13.518 [main] INFO   - com.frizzer.pageobject.test.impl.CartTest started
+23:42:08.327 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+23:42:08.335 [main] INFO   - com.frizzer.pageobject.test.impl.BarrSearchTest started
+23:42:12.624 [main] INFO   - com.frizzer.pageobject.test.impl.AscendingFilterTest started
+23:42:15.996 [main] INFO   - com.frizzer.pageobject.test.impl.AlphabetAZFilterTest started
+23:42:19.653 [main] INFO   - com.frizzer.pageobject.test.impl.AlphabetZAFilterTest started
+23:42:23.831 [main] INFO   - com.frizzer.pageobject.test.impl.CurrencyChangeTest started
+23:42:23.831 [main] INFO   - com.frizzer.pageobject.test.impl.DescendingFilterTest started
+23:42:27.741 [main] INFO   - com.frizzer.pageobject.test.impl.CartAddSingleItemTest started
+23:42:35.921 [main] INFO   - com.frizzer.pageobject.test.impl.CartDeleteSingleItemTest started
+23:42:42.128 [main] INFO   - com.frizzer.pageobject.test.impl.CartTest started
