@@ -20,7 +20,7 @@ public class AscendingFilterTest extends CommonTest {
     List<Double> prices = productPage.findVapes().stream().map(VaporessoProduct::getCurrentPrice)
         .collect(
             Collectors.toList());
-    assertThat(prices,is(equalTo(prices.stream().sorted().collect(Collectors.toList()))));
+    assertThat(prices, is(equalTo(prices.stream().sorted().collect(Collectors.toList()))));
   }
 
 

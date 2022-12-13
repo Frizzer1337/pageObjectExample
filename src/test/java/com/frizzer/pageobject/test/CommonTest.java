@@ -2,16 +2,8 @@ package com.frizzer.pageobject.test;
 
 import com.frizzer.pageobject.driver.DriverManager;
 import com.frizzer.pageobject.service.listener.TestListener;
-import com.frizzer.pageobject.test.impl.CartTest;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import java.net.MalformedURLException;
-import java.net.URL;
-import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;

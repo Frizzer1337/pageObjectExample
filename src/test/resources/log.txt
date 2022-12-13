@@ -432,3 +432,22 @@
 00:24:05.857 [main] WARN   - Test com.frizzer.pageobject.test.impl.CartQuantityTest failed
 00:25:03.116 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
 00:25:03.125 [main] INFO   - com.frizzer.pageobject.test.impl.CartQuantityTest started
+01:05:13.788 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+01:05:13.795 [main] INFO   - com.frizzer.pageobject.test.impl.CartQuantityTest started
+01:05:28.870 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+01:05:28.907 [main] INFO   - com.frizzer.pageobject.test.impl.CommunitySearchTest started
+01:05:32.134 [main] WARN   - Test com.frizzer.pageobject.test.impl.CommunitySearchTest failed
+01:07:23.895 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+01:07:23.907 [main] INFO   - com.frizzer.pageobject.test.impl.CommunitySearchTest started
+01:07:48.351 [main] WARN   - Test com.frizzer.pageobject.test.impl.CommunitySearchTest failed
+01:09:06.352 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+01:09:06.362 [main] INFO   - com.frizzer.pageobject.test.impl.CommunitySearchTest started
+13:32:20.360 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+13:32:20.368 [main] INFO   - com.frizzer.pageobject.test.impl.CommunitySearchTest started
+13:32:43.288 [main] WARN   - Test com.frizzer.pageobject.test.impl.CommunitySearchTest failed
+13:34:07.327 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+13:34:07.335 [main] INFO   - com.frizzer.pageobject.test.impl.CommunitySearchTest started
+13:34:11.303 [main] WARN   - Test com.frizzer.pageobject.test.impl.CommunitySearchTest failed
+13:34:37.726 [main] INFO  com.frizzer.pageobject.driver.DriverManager - WebDriver has started
+13:34:37.740 [main] INFO   - com.frizzer.pageobject.test.impl.CommunitySearchTest started
+13:34:40.154 [main] WARN   - Test com.frizzer.pageobject.test.impl.CommunitySearchTest failed

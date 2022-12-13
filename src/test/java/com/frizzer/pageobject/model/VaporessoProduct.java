@@ -1,6 +1,7 @@
 package com.frizzer.pageobject.model;
 
 public class VaporessoProduct {
+
   private double currentPrice;
   private String name;
   private String link;
@@ -11,7 +12,7 @@ public class VaporessoProduct {
     this.link = link;
   }
 
-  public double getCurrentPrice(){
+  public double getCurrentPrice() {
     return currentPrice;
   }
 

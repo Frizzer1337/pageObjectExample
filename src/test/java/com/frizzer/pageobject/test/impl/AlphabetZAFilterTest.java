@@ -19,7 +19,8 @@ public class AlphabetZAFilterTest extends CommonTest {
     ProductPage productPage = new ProductPage(driver);
     List<String> names = productPage.findVapes().stream().map(x -> x.getName().toLowerCase())
         .collect(Collectors.toList());
-    assertThat(names, is(equalTo(names.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList()))));
+    assertThat(names,
+        is(equalTo(names.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList()))));
 
 
   }

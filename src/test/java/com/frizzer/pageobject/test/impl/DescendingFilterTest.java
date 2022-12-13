@@ -12,18 +12,18 @@ import java.util.List;
 import java.util.stream.Collectors;
 import org.testng.annotations.Test;
 
-public class DescendingFilterTest extends CommonTest{
+public class DescendingFilterTest extends CommonTest {
 
-    @Test
-    public void testSortDescendingByPrice() {
-      driver.get("https://store.vaporesso.com/collections/collections?sort_by=price-descending");
-      ProductPage productPage = new ProductPage(driver);
-      List<Double> prices = productPage.findVapes().stream().map(VaporessoProduct::getCurrentPrice)
-          .collect(
-              Collectors.toList());
-      assertThat(prices,is(equalTo(prices.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList()))));
-    }
-
+  @Test
+  public void testSortDescendingByPrice() {
+    driver.get("https://store.vaporesso.com/collections/collections?sort_by=price-descending");
+    ProductPage productPage = new ProductPage(driver);
+    List<Double> prices = productPage.findVapes().stream().map(VaporessoProduct::getCurrentPrice)
+        .collect(
+            Collectors.toList());
+    assertThat(prices, is(equalTo(
+        prices.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList()))));
+  }
 
 
 }

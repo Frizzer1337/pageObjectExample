@@ -43,10 +43,10 @@ public class SingleProductPage extends AbstractPage {
     return this;
   }
 
-  public String quantityOfFirstInCart(){
-      wait.until(ExpectedConditions.presenceOfElementLocated(By.className("quantity__input")));
-      String cartText = driver.findElement(By.className("quantity__input")).getAttribute("value");
-      return cartText;
+  public String quantityOfFirstInCart() {
+    wait.until(ExpectedConditions.presenceOfElementLocated(By.className("quantity__input")));
+    String cartText = driver.findElement(By.className("quantity__input")).getAttribute("value");
+    return cartText;
   }
 
   public String checkEmptyCart() {

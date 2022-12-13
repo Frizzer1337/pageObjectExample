@@ -11,10 +11,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class DriverManager {
@@ -39,8 +36,8 @@ public class DriverManager {
       if (isCreated.compareAndSet(false, true)) {
         switch (properties.getProperty("browser")) {
           case "firefox": {
-            FirefoxOptions capabilities = new FirefoxOptions ();
-            webDriver = new RemoteWebDriver(new URL("http://localhost:4444/"),capabilities);
+            FirefoxOptions capabilities = new FirefoxOptions();
+            webDriver = new RemoteWebDriver(new URL("http://localhost:4444/"), capabilities);
             break;
           }
           default: {

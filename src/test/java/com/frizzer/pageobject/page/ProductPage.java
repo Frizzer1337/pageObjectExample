@@ -31,20 +31,19 @@ public class ProductPage extends AbstractPage {
     super(driver);
   }
 
-  public ProductPage openCurrencySwitch(){
+  public ProductPage openCurrencySwitch() {
     wait.until(ExpectedConditions.elementToBeClickable(currencySwitch));
     Select select = new Select(currencySwitch.findElement(By.className("transcy-select__field")));
     return this;
   }
 
 
-
-  public String getNameFirstItemInCart(){
+  public String getNameFirstItemInCart() {
     String itemName = driver.findElement(By.className("cart-item__name")).getText();
     return itemName;
   }
 
-  public String checkEmptyCart(){
+  public String checkEmptyCart() {
     String cartText = driver.findElement(By.className("cart__empty-text")).getText();
     return cartText;
   }
@@ -55,7 +54,7 @@ public class ProductPage extends AbstractPage {
     return this;
   }
 
-  public ProductPage deleteItem(){
+  public ProductPage deleteItem() {
     deleteButton.click();
     return this;
   }
@@ -90,18 +89,18 @@ public class ProductPage extends AbstractPage {
   }
 
   public VaporessoProduct findVape() {
-      WebElement link = findProductLinks().get(0);
-      String productLink = link.getAttribute("href");
-      String name = link.getText();
-      double currentPrice = service.priceToDouble(link.findElement(By.xpath("./.."))
+    WebElement link = findProductLinks().get(0);
+    String productLink = link.getAttribute("href");
+    String name = link.getText();
+    double currentPrice = service.priceToDouble(link.findElement(By.xpath("./.."))
+        .findElement(By.xpath("./.."))
+        .findElement(By.className("price-item--sale")));
+    if (currentPrice == -1) {
+      currentPrice = service.priceToDouble(link.findElement(By.xpath("./.."))
           .findElement(By.xpath("./.."))
-          .findElement(By.className("price-item--sale")));
-      if (currentPrice == -1) {
-        currentPrice = service.priceToDouble(link.findElement(By.xpath("./.."))
-            .findElement(By.xpath("./.."))
-            .findElement(By.className("price__regular")));
-      }
-     return new VaporessoProduct(currentPrice, name, productLink);
+          .findElement(By.className("price__regular")));
+    }
+    return new VaporessoProduct(currentPrice, name, productLink);
 
 
   }

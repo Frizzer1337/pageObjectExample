@@ -1,9 +1,7 @@
 package com.frizzer.pageobject.test.impl;
 
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.emptyString;
 import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.is;
 
 import com.frizzer.pageobject.model.VaporessoProduct;
 import com.frizzer.pageobject.page.ProductPage;
@@ -19,8 +17,9 @@ public class CartDeleteSingleItemTest extends CommonTest {
     ProductPage productPage = new ProductPage(driver);
     VaporessoProduct firstProduct = productPage.findVape();
     driver.get(firstProduct.getLink());
-    String emptyCartText = new SingleProductPage(driver).addToCart().deleteFromCart().checkEmptyCart();
-    assertThat(emptyCartText,equalTo("Your cart is empty"));
+    String emptyCartText = new SingleProductPage(driver).addToCart().deleteFromCart()
+        .checkEmptyCart();
+    assertThat(emptyCartText, equalTo("Your cart is empty"));
 
 
   }
